@@ -3,7 +3,11 @@ name: Deploy ARM Template
 on:
   push:
     branches:
-      - master
+      - main
+      
+      # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
 env:
   AZURE_SUBSCRIPTION_ID: << Subscription Id >>   # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource groupasd
