@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   
 env:
-  AZURE_SUBSCRIPTION_ID: << Subscription Id >>   # set this to your Azure Subscription Id
+  AZURE_SUBSCRIPTION_ID: d7315bc6-45e5-41ee-8f84-530372595648   # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource groupasd
 
 jobs:
